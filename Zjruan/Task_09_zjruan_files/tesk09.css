@@ -1,4 +1,4 @@
-/**
+﻿/**
 * 颜色设置
 */
 /**
@@ -260,6 +260,7 @@ a {
   width: 15px;
   height: 15px;
   vertical-align: text-bottom;
+  margin-bottom: 2px;
 }
 .left-side .user-info {
   height: 150px;
@@ -747,6 +748,7 @@ a {
   height: 14px;
   width: 14px;
   vertical-align: text-bottom;
+  margin-bottom: 1px;
 }
 .user-name {
   background: url(../image/user-name.png) no-repeat;
@@ -784,11 +786,14 @@ a {
 .ico-money {
   background: url(../image/money.png) no-repeat center center;
 }
-.active > span > .doc {
+.active > .doc {
   background: url(../image/doc-hover.png) no-repeat center center;
 }
 .i-slt {
   background: url(../image/arrow-bottom-01.png) no-repeat right 8px center;
+}
+.active > .i-slt {
+  background: url(../image/arrow-bottom-02.png) no-repeat right 8px center;
 }
 .con-area2 {
   background: url(../image/switch.png) no-repeat right 11px;
@@ -804,4 +809,7 @@ a {
 }
 .ico-price {
   background: url(../image/money-01.png) no-repeat 0px center;
+}
+.ico-account {
+  background: url(../image/account.png) no-repeat center center;
 }
